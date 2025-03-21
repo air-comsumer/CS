@@ -9,7 +9,7 @@ using UnityEngine;
 public class ClientSocket
 {
     private Socket socket;
-    private static int CLIENT_BEGIN_ID = 1;
+    private static int CLIENT_BEGIN_ID = 2;
     public int clientID;
     public ClientSocket(Socket clientSocket)
     {
