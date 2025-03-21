@@ -3,16 +3,9 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+public class UIManager : Signton<UIManager>
 {
-    private static UIManager instance;
-    public static UIManager Instance
-    {
-        get
-        {
-            return instance;
-        }
-    }
+    
     void Start()
     {
         
