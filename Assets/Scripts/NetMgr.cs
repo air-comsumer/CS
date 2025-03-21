@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class NetMgr : MonoBehaviour
 {
-    //try get
+    //try change
     private static NetMgr instance;
     public static NetMgr Instance
     {
