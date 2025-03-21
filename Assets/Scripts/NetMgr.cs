@@ -9,6 +9,7 @@ using UnityEngine;
 
 public class NetMgr : MonoBehaviour
 {
+    //try get
     private static NetMgr instance;
     public static NetMgr Instance
     {
@@ -46,7 +47,7 @@ public class NetMgr : MonoBehaviour
         }
         catch
         {
-            Debug.Log("Á¬½ÓÊ§°Ü");
+            Debug.Log("ÃÂ¬Â½Ã“ÃŠÂ§Â°Ãœ");
         }
     }
     public void Send(string message)
