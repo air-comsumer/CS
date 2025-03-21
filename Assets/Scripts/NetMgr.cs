@@ -10,7 +10,7 @@ using UnityEngine;
 public class NetMgr : MonoBehaviour
 {
     //try change
-    public int x =10086;
+    public int x =1;
     private static NetMgr instance;
     public static NetMgr Instance
     {
